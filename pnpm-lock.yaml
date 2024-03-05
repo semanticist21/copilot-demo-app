@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@kkoms/react-simple-input':
-    specifier: ^0.2.0
-    version: 0.2.0(react@18.2.0)
+    specifier: ^0.2.8
+    version: 0.2.8(react@18.2.0)
   '@types/jest':
     specifier: ^29.5.11
     version: 29.5.11
@@ -15,7 +15,7 @@ dependencies:
     specifier: ^20.11.9
     version: 20.11.9
   material-test-jiwon:
-    specifier: ^1.0.2
+    specifier: ^1.0.7
     version: 1.0.7(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
@@ -47,10 +47,10 @@ devDependencies:
     specifier: ^18.2.18
     version: 18.2.18
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.14.0
+    specifier: ^6.19.1
     version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.3.3)
   '@typescript-eslint/parser':
-    specifier: ^6.14.0
+    specifier: ^6.19.1
     version: 6.19.1(eslint@8.56.0)(typescript@5.3.3)
   '@vitejs/plugin-react':
     specifier: ^4.2.1
@@ -59,7 +59,7 @@ devDependencies:
     specifier: ^29.7.0
     version: 29.7.0(@babel/core@7.23.9)
   eslint:
-    specifier: ^8.55.0
+    specifier: ^8.56.0
     version: 8.56.0
   eslint-plugin-react-hooks:
     specifier: ^4.6.0
@@ -71,10 +71,10 @@ devDependencies:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@20.11.9)
   typescript:
-    specifier: ^5.2.2
+    specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^5.0.8
+    specifier: ^5.0.12
     version: 5.0.12(@types/node@20.11.9)
 
 packages:
@@ -1926,8 +1926,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@kkoms/react-simple-input@0.2.0(react@18.2.0):
-    resolution: {integrity: sha512-crn6IPebe5bmj0jTPgaMp4TkbfuZ8LaAe19Wytwo2QwopSb4v9VbB5/97aVVXjMzBuPQjfuuQxQSzausIv+1eQ==}
+  /@kkoms/react-simple-input@0.2.8(react@18.2.0):
+    resolution: {integrity: sha512-GNC+gWr+dFvZslFfm5d4shByZOn2WwdoHkND/dK0ORvoR3HYdHiKxTC6Ac///NSu4MTi6/PbYwghqgTiniTyIg==}
     peerDependencies:
       react: '>=18.0.0'
     dependencies:

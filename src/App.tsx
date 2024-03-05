@@ -10,8 +10,8 @@ function App() {
       numbers: ["age"],
       defaults: {
         // you should set default value if you want bind value to input element, as the initial object is empty.
-        string: "",
-        // boolean: false,
+        // string: "",
+        // boolean: undefined,
         // number: 0,
       },
     });
@@ -20,6 +20,8 @@ function App() {
   // boolKeys - ["checked"]
   // numberKeys - ["age"]
   const { stringKeys, boolKeys, numberKeys } = keys;
+
+  const { isStrKey, isBoolKey, isNumKey } = checks;
 
   // making your own custom handler
   const customHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
